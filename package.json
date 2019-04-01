@@ -2,6 +2,10 @@
   "name": "webauth-i-challenge",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
   "repository": "https://github.com/JorPoon/webauth-i-challenge.git",
   "author": "Jor_Poon <jormpoon@gmail.com>",
   "license": "MIT",
