@@ -23,7 +23,7 @@ const sessionConfig = {
     saveUnitialized: false,
     store: new KnexSessionStore({
         knex: configureKnex,
-        tablename: 'session',
+        tablename: 'sessions',
         sidfieldname: 'sid',
         createtable: true,
         clearInterval: 1000 * 60 * 30
